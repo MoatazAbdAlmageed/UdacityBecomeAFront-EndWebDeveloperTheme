@@ -35,9 +35,7 @@ body{
     font-weight: 300;
 }
 
-.text-muted{
-    color: #6c757d;
-}
+
 .text-thin{
     font-weight: 300;
 }
@@ -56,4 +54,23 @@ body{
 }
 .logo{
     width: 100px
+}
+
+
+
+.pink{
+    color: #d62e7b;
+}
+
+.blue{
+    color: #4bb2c5;
+}
+
+a{
+    color: #6c757d;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #4bb2c5;
 }
