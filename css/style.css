@@ -86,3 +86,7 @@ a:hover{
     width: 100%;
     margin: 0 auto 1em;
 }
+
+.row{
+    margin-bottom: 1em;
+}
