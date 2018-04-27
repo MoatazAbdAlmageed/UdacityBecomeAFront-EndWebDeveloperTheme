@@ -8,7 +8,7 @@ var author = {
 };
 
 var img  =180;
-for (var i = 0; i < 10; i++) {
+for (var i = 0; i < 20; i++) {
 
     author.projects[i] = {
         id:(i+1),
@@ -25,7 +25,7 @@ $(document).ready(function () {
 
 // render projects
     for (var i = 0; i < author.projects.length; i++) {
-        $("#featured_work").append('<div class="col-md-4 col-sm-12"> <a href="#" data-toggle="modal" data-target="#Modal" data-project_id="'+author.projects[i].id+'"> <img class="img-thumbnail" src="'+author.projects[i].img+'" alt=""> <h3 class=" text-thin ">'+author.projects[i].title+'</h3> </a> </div>');
+        $("#featured_work").append('<div class="col-md-3 col-sm-12"> <a href="#" data-toggle="modal" data-target="#Modal" data-project_id="'+author.projects[i].id+'"> <img class="img-thumbnail" src="'+author.projects[i].img+'" alt=""> <h3 class=" text-thin ">'+author.projects[i].title+'</h3> </a> </div>');
     }
 
 
