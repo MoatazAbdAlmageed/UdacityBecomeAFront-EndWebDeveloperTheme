@@ -58,12 +58,16 @@ body{
 
 
 
-.pink{
-    color: #d62e7b;
+.primary{
+    color: #F3614A;
 }
 
-.blue{
-    color: #4bb2c5;
+.btn{
+    background: #F3614A;
+    border: none;
+}
+.secondary{
+    color: #1b1e21;
 }
 
 a{
@@ -72,5 +76,13 @@ a{
 
 a:hover{
     text-decoration: none;
-    color: #4bb2c5;
+    color: #F3614A;
+}
+
+#featured_work h3 {margin-top: .5em;}
+
+.modal-body img {
+    display: block;
+    width: 100%;
+    margin: 0 auto 1em;
 }

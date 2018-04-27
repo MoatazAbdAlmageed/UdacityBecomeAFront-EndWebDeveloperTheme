@@ -6,18 +6,17 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
-    <title>John Doe</title>
+    <title></title>
 </head>
 <body>
 <div class="container">
-
     <div class="row">
         <div class="col-md-6 col-sm-12 col-sm-12">
-            <a href="index.html"> <img class="logo" src="img/Logogap%20Logobb.jpg" alt=""></a>
+            <a href="index.html"> <img class="logo" src="img/logo.jpeg" alt=""></a>
         </div>
         <div class="col-md-6 col-sm-12">
-            <h1 class="text-right blue text-uppercase ">John Doe</h1>
-            <h4 class="text-right pink text-thin">Web Developer</h4>
+            <h1 class="text-right secondary text-uppercase " id="author_name"></h1>
+            <h4 class="text-right primary text-thin" id="author_position"></h4>
         </div>
     </div>
     <br>
@@ -30,40 +29,11 @@
     <br>
     <div class="row">
         <div class="col-12">
-            <h2 class="text-center ">Featured Work</h2>
+            <h2 class="text-center ">Featured Projects</h2>
         </div>
     </div>
     <br>
     <div class="row text-center" id="featured_work">
-        <div class="col-md-4 col-sm-12">
-            <a href="#" data-toggle="modal" data-target="#Project1exampleModal">
-
-                <img class="img-thumbnail" src="http://picsum.photos/300/250" alt="">
-                <h3 class=" text-thin ">Project 1</h3>
-            </a>
-
-
-        </div>
-        <div class="col-md-4 col-sm-12">
-
-            <a href="#" data-toggle="modal" data-target="#Project2exampleModal">
-
-                <img class="img-thumbnail" src="http://picsum.photos/300/250" alt="">
-                <h3 class=" text-thin ">Project 2</h3>
-            </a>
-
-
-
-        </div>
-        <div class="col-md-4 col-sm-12">
-            <a href="#" data-toggle="modal" data-target="#Project3exampleModal">
-
-                <img class="img-thumbnail" src="http://picsum.photos/300/250" alt="">
-                <h3 class="  text-thin "> Project 3</h3>
-            </a>
-
-
-        </div>
 
     </div>
     <br>
@@ -79,19 +49,16 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="Project1exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="Project1exampleModalLabel">Project 1  </h5>
+                    <h5 class="modal-title" id="ModalLabel"></h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <img class="img-thumbnail" src="http://picsum.photos/500/250" alt="">
-                    <br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad cupiditate earum eum excepturi fugiat iusto labore libero magni, minus molestias, praesentium quibusdam sunt voluptatem voluptates. Aut magni molestiae optio?</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -101,56 +68,11 @@
         </div>
     </div>
 
-
-    <div class="modal fade" id="Project2exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="Project2exampleModalLabel">Project 2  </h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img class="img-thumbnail" src="http://picsum.photos/500/250" alt="">
-                    <br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad cupiditate earum eum excepturi fugiat iusto labore libero magni, minus molestias, praesentium quibusdam sunt voluptatem voluptates. Aut magni molestiae optio?</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="modal fade" id="Project3exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="Project3exampleModalLabel">Project 3  </h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img class="img-thumbnail" src="http://picsum.photos/500/250" alt="">
-                 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad cupiditate earum eum excepturi fugiat iusto labore libero magni, minus molestias, praesentium quibusdam sunt voluptatem voluptates. Aut magni molestiae optio?</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
 
 </div>
 
 <script src="js/jquery-3.2.1.slim.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
