@@ -13,7 +13,7 @@ for (var i = 0; i < 10; i++) {
     author.projects[i] = {
         id:(i+1),
         title:"Project "+(i+1),
-        img:"https://placeimg.com/240/"+(img+i)+"/tech",
+        img:"https://picsum.photos/200/"+(img+i),
         description  :" Project "+(i+1) + " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab assumenda autem consectetur debitis id inventore neque omnis perferendis, porro quasi, quia, recusandae repellendus vero voluptate voluptatibus. Autem cupiditate nisi voluptas!\n"
     }
 }
@@ -32,14 +32,18 @@ $(document).ready(function () {
 //change modal data
     $("#featured_work a").click(function (ev) {
         var requiredProject = author.projects[ev.currentTarget.attributes['data-project_id'].value-1] ;
-
         $("#ModalLabel").html(requiredProject.title);
-
-
         var img = '<img class="img-thumbnail" src="'+requiredProject.img+'" alt=""> ';
         $(".modal-body").html(img + requiredProject.description);
 
 
     });
+
+
+    $("#featured_work img").hover(function (ev) {
+        $(this).addClass('hover')
+    },function () {
+        $(this).removeClass('hover')
+    })
 
 })

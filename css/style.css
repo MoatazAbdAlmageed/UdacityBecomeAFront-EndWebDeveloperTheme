@@ -90,3 +90,23 @@ a:hover{
 .row{
     margin-bottom: 1em;
 }
+
+
+#featured_work img{
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .1s ease;
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s;
+
+    border: 1px solid transparent;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.hover{
+    border: 1px solid #F3614A !important;
+    -webkit-filter: grayscale(0) !important;
+    filter: grayscale(0) !important;
+}
