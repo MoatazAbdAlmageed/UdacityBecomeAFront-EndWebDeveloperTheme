@@ -41,9 +41,7 @@ $(document).ready(function () {
 
 
     $("#featured_work img").hover(function (ev) {
-        $(this).addClass('hover')
-    },function () {
-        $(this).removeClass('hover')
+        $(this).toggleClass('hover')
     })
 
 })
