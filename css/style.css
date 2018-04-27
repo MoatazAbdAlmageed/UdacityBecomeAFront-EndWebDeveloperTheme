@@ -105,8 +105,8 @@ a:hover{
 
 .grayImage{
 
-    -webkit-filter: blur(3px) grayscale(1) !important;
-    filter: blur(3px) grayscale(1) !important;
+    -webkit-filter: blur(1px) grayscale(1) !important;
+    filter: blur(1px) grayscale(1) !important;
 }
 
 .selectedImage{
