@@ -41,7 +41,15 @@ $(document).ready(function () {
 
 
     $("#featured_work img").hover(function (ev) {
-        $(this).toggleClass('hover')
+        // $(this).toggleClass('hover');
+
+        $("#featured_work img").addClass('grayImage')
+        $(this).removeClass('grayImage')
+        $(this).addClass('selectedImage')
+    },function () {
+        $("#featured_work img").removeClass('selectedImage')
+        $("#featured_work img").removeClass('grayImage')
+
     })
 
 })

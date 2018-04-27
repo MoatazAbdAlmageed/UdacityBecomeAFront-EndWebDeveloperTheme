@@ -99,14 +99,21 @@ a:hover{
     transition: all .1s ease;
     -webkit-transition-delay: .1s;
     transition-delay: .1s;
-
     border: 1px solid transparent;
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
+
 }
 
-.hover{
-    border: 1px solid #F3614A !important;
-    -webkit-filter: grayscale(0) !important;
-    filter: grayscale(0) !important;
+.grayImage{
+
+    -webkit-filter: blur(3px) grayscale(1) !important;
+    filter: blur(3px) grayscale(1) !important;
 }
+
+.selectedImage{
+    border: 1px solid #F3614A !important;
+    /*-webkit-filter: grayscale(0) !important;*/
+    filter: grayscale(0) !important;
+    -webkit-filter: grayscale(0) !important;
+
+}
+
