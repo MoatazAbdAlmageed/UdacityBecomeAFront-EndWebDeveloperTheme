@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "![alt text](https://raw.githubusercontent.com/MoatazGitHub/UdacityBecomeAFront-EndWebDeveloperTheme/master/img/cover.jpeg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoatazGitHub/UdacityBecomeAFront-EndWebDeveloperTheme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoatazGitHub/UdacityBecomeAFront-EndWebDeveloperTheme/issues"
+  },
+  "homepage": "https://github.com/MoatazGitHub/UdacityBecomeAFront-EndWebDeveloperTheme#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "jquery": "^3.3.1"
+  }
+}
