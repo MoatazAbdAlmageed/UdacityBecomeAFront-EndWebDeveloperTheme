@@ -62,10 +62,10 @@ body{
     color: #F3614A;
 }
 
-.btn{
-    background: #F3614A;
-    border: none;
-}
+/*.btn{*/
+/*background: #F3614A;*/
+/*border: none;*/
+/*}*/
 .secondary{
     color: #1b1e21;
 }
@@ -93,6 +93,7 @@ a:hover{
 
 
 #featured_work img{
+    height: 190px;
     -webkit-transition: all .1s ease;
     -moz-transition: all .1s ease;
     -o-transition: all .1s ease;
@@ -117,3 +118,15 @@ a:hover{
 
 }
 
+
+
+.navbar label {
+    padding-right: 10px;
+    color: #eee
+}
+
+/*google api*/
+img.result{
+    margin: 0 auto;
+    display: block;
+}

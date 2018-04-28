@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/starter-template.css">
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
-    <title></title>
+    <title>Google Street View Image API  |  Google Developers</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
@@ -36,65 +36,27 @@
                 </div>
             </li>
         </ul>
-
+        <form class="form-inline my-2 my-lg-0" id="search_form">
+            <label for="street">Street</label>
+            <input class="form-control mr-sm-2" name="street" type="text" placeholder="street" aria-label="Search">
+            <label for="city">City</label>
+            <input class="form-control mr-sm-2" name="city" type="text" placeholder="city" aria-label="Search">
+            <!--<button  class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+            <input type="submit" class="btn btn-outline-success my-2 my-sm-0" >
+        </form>
     </div>
 </nav>
 
 <div class="container">
     <div class="row">
-        <div class="col-md-6 col-sm-12 col-sm-12">
-            <a href="index.html"> <img class="logo" src="img/logo.jpeg" alt=""></a>
+        <div class="col-6">
+            <h1>Google StreetView</h1>
+            <div id="img"></div>
         </div>
-        <div class="col-md-6 col-sm-12">
-            <h1 class="text-right secondary text-uppercase " id="author_name"></h1>
-            <h4 class="text-right primary text-thin" id="author_position"></h4>
-        </div>
-    </div>
-  
-    <div class="row">
-        <div class="col-12">
-            <img  class="intro_image img-fluid" src="http://picsum.photos/960/250" alt="">
-        </div>
-    </div>
+        <div class="col-6">
+            <h1>The New York Times</h1>
+            <div id="nytimes">
 
-  
-    <div class="row">
-        <div class="col-12">
-            <h2 class="text-center ">Featured Projects</h2>
-        </div>
-    </div>
-  
-    <div class="row text-center" id="featured_work">
-
-    </div>
-  
-    <footer>
-      <div class="row">
-          <div class="col-12">
-              <p class="text-center">Copyright 2018</p>
-          </div>
-      </div>
-  </footer>
-
-
-
-
-    <!-- Modal -->
-    <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="ModalLabel"></h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    
-                </div>
             </div>
         </div>
     </div>
@@ -104,6 +66,6 @@
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
+<script src="js/streetview.js"></script>
 </body>
 </html>
